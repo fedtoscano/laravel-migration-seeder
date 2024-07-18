@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Guest\TrainController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//! rotta per Trains
+Route::get('/trains', [TrainController::class, 'index']);
