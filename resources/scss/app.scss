@@ -1,2 +1,17 @@
 @import "-bootstrap/scss/bootstrap";
 
+table td{
+    text-align: center;
+}
+
+table th{
+    text-align: center;
+}
+
+table{
+    border: 1px solid black;
+
+    tr{
+        margin-bottom: 1rem;
+    }
+}
